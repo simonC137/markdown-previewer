@@ -1,0 +1,46 @@
+body {
+  font-family: "Trebuchet MS";
+    font-size: 1.1em;
+  background: linear-gradient(51deg, #FE5656, #81C3FF);
+}
+
+img {
+  max-width: 500px;
+  max-height: auto;
+}
+
+#editor{
+  background-color: lightgrey;
+  width: 90%;
+  height: 200px;
+  border-radius: 10px;
+  margin: 4%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 10px;  
+}
+
+#preview{
+  background-color: darkgrey;
+  width: 90%;
+  height: 500px;
+  border-radius: 10px;
+  margin: 4%;
+  border: solid black 1px;
+  padding: 1px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+#header {
+  text-align: center
+}
+
+h2 {
+  text-align: center;
+}
+
+textarea{
+ margin: 10px;
+}
